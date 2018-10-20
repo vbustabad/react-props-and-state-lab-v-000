@@ -1,6 +1,17 @@
 import React from 'react'
 
 class Filters extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      filters: {
+        type: this.props.filters
+      }
+      onFindPetsClick: 
+    }
+  }
+
   render() {
     return (
       <div className="ui form">
